@@ -38,6 +38,7 @@ import java.util.List;
  */
 public class Page<E> extends ArrayList<E> {
     private static final long serialVersionUID = 1L;
+    private String luo;
     
     /**不进行count查询*/
     private static final int NO_SQL_COUNT = -1;
